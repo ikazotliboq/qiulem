@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let div = document.createElement('div');
         div.classList.add('m-2');
         div.innerHTML = `
-        <h2 class="fsub1 text-light">${name}</h2>
+        <h2 class="fsub1 text-hideng">${name}</h2>
         `;
 
         document.getElementById('namatamu').appendChild(div);
