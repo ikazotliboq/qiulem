@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Qobilto | Coming Soon</title>
+    <meta name="theme-color" content="#FFF9EDE1">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/icon-192x192.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <style>
+body {
+    background-color: #f1f1f1;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 50px;
+    margin: 0;
+    height: 100vh;
+    background-image: url('https://i.ibb.co/xKZHDZy/IMG-20230601-001808.jpg'); /* Ganti dengan URL gambar latar belakang yang diinginkan */
+    background-size: cover;
+}
+
+section {
+margin-top: 25%;
+justify-content: center;
+content-items: center;
+
+}
+
+h1 {
+    color: #333;
+}
+
+.countdown-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 50px;
+}
+
+.countdown-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.countdown-label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    margin: 0px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.countdown-value {
+    color: #D77D2E;
+font-size: 40px;
+margin: 0px;
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-weight: 800;
+}
+
+.f1 {
+font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+.f2 {
+
+font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+</style>
+</head>
+<body>
+    <section>
+    
+    <h1 class="f1">Warung Qobilto Akan Segara DiBuka</h1>
+    <p class="f2">We're working on something awesome. Stay tuned!</p>
+    <div class="countdown-grid">
+        <div class="countdown-item">
+            <p id="days" class="countdown-value">0</p>
+          <p class="countdown-label">Hari Lagi</p>
+        </div>
+        <div class="countdown-item">
+          <p id="hours" class="countdown-value">0</p>
+           <p class="countdown-label">Jam</p>
+        </div>
+        <div class="countdown-item">
+            <p id="minutes" class="countdown-value">0</p>
+           <p class="countdown-label">Menit</p>
+        </div>
+        <div class="countdown-item">
+            <p id="seconds" class="countdown-value">0</p>
+           <p class="countdown-label">Detik</p>
+        </div>
+    </div>
+    
+    </section>
+    
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("June 20, 2023 00:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+            // Get today's date and time
+            var now = new Date().getTime();
+            
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+            
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+            // Display the result in the element with respective IDs
+            document.getElementById("days").innerHTML = days + "";
+            document.getElementById("hours").innerHTML = hours + "";
+            document.getElementById("minutes").innerHTML = minutes + "";
+            document.getElementById("seconds").innerHTML = seconds + "";
+            
+            // If the count down is finished, display text
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("countdown").innerHTML = "We're live now!";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
