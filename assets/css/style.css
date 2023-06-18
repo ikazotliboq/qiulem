@@ -1,0 +1,743 @@
+    
+    body {
+    background: #fff;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    }
+    
+    
+    
+    
+    .ic {
+    width: 18px;
+    }
+    
+    
+    .tabs-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 60px;
+    }
+    
+    .tabs-button1 {
+    flex: 1 1 auto;
+    padding: 10px 20px;
+    background-color: #F2ECDD;
+    border: none;
+    border-radius: 12px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+    font-family: myfontsubtitle2;
+    }
+    
+    .tabs-button1.active1 {
+    background-color: #D77D2E;
+    color: white;
+    }
+    
+    .tabs-content1 {
+    margin-top: 20px;
+    }
+    
+    .tabs-pane1 {
+    display: none;
+    }
+    
+    .tabs-pane1.active1 {
+    display: block;
+    }
+    
+    
+    .bg-satu {
+    background-image: linear-gradient(
+    140deg,
+    hsl(28deg 81% 62%) 0%,
+    hsl(28deg 80% 61%) 7%,
+    hsl(28deg 80% 61%) 13%,
+    hsl(28deg 79% 60%) 20%,
+    hsl(28deg 78% 59%) 27%,
+    hsl(28deg 77% 58%) 33%,
+    hsl(28deg 76% 58%) 40%,
+    hsl(28deg 75% 57%) 47%,
+    hsl(28deg 75% 56%) 53%,
+    hsl(28deg 74% 55%) 60%,
+    hsl(28deg 73% 54%) 67%,
+    hsl(28deg 73% 53%) 73%,
+    hsl(28deg 72% 52%) 80%,
+    hsl(28deg 72% 51%) 87%,
+    hsl(28deg 71% 50%) 93%,
+    hsl(28deg 74% 49%) 100%
+    );
+    }
+    
+    .bg-dua {
+    background-color: #FDF7E7;
+    }
+    
+    .hideng {
+    color: #D77D2E;
+    
+    }
+    
+   
+    
+    
+    .display-6 {
+    font-size: 16px;
+    line-height: 1.5;
+    }
+    
+    .display-7 {
+    font-size: 17px;
+    line-height: 1.5;
+    }
+    
+    .display-8 {
+    font-size: 22px;
+    line-height: 1.5;
+    }
+    
+    .fw-bold {
+    font-size: 18px;
+    line-height: 1.5;
+    }
+    
+    
+    
+    
+    
+    p {
+    line-height: 1.6;
+    }
+    
+   
+    
+    
+    
+    h1 {
+    font-family: myfontsubtitle1 !important;
+    }
+    
+    h2 {
+    font-family: myfontsubtitle2;
+    }
+    
+    h3 {
+    font-family: myfontsubtitle2;
+    }
+    
+    h4 {
+    font-family: myfontsubtitle2;
+    }
+    
+    h5 {
+    font-family: myfontsubtitle2;
+    }
+    
+    p {
+    font-family: myfontsubtitle3;
+    }
+    
+    span {
+    color: #D77D2E;
+    font-family: myfontsubtitle2;
+    }
+    
+    
+    
+    
+    
+    input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: none;
+    font-family: myfontsubtitle2;
+    font-weight: 500;
+    }
+    
+    .input .form-control1[type=text]:focus {
+    border: 1px solid red;
+    }
+    
+    input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    font-family: myfontsubtitle2;
+    font-weight: 500;
+    }
+    
+    .input .form-control[type=date]:focus {
+    border: 1px solid red;
+    }
+    
+    input[type=time] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    font-family: myfontsubtitle2;
+    font-weight: 500;
+    }
+    
+    .input .form-control[type=time]:focus {
+    border: 1px solid red;
+    }
+    
+    .form-label {
+    margin: 10px 0;
+    font-size: 15px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    
+   
+    
+    
+    
+    /* Style the tab */
+    .tab {
+    overflow: hidden;
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    font-size: 15px;
+    font-family: myfontsubtitle2;
+    font-weight: bold;
+    }
+    
+    /* Style the buttons inside the tab */
+    
+    .btns {
+    border: none;
+    outline: none;
+    padding: 15px 16px;
+    background-color: #fff;
+    cursor: pointer;
+    }
+    
+    /* Style the active class (and buttons on mouse-over) */
+    .active, .btns:hover {
+    background-color: #D77D2E;
+    color: white;
+    }
+    
+    
+    .btn-prod {
+     /* Green */
+    border: 1px solid black;
+    color: black;
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: myfontsubtitle2;
+    font-weight: 500;
+    }
+    
+    .btn-prod {
+    transition-duration: 0.4s;
+    }
+    
+    
+    .btn-prod:hover {
+    background-color: black; /* Green */
+    color: white;
+    }
+    
+    
+   
+    
+    
+    .btn-prod-black {
+    background-color: #fff; /* Green */
+    border: none;
+    color: #D77D2E;
+    width: 100%;
+    padding: 15px 0px;
+    border-radius: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: myfontsubtitle2;
+    font-weight: 800;
+    }
+    
+    .btn-prod-black {
+    transition-duration: 0.4s;
+    }
+    
+    
+    .btn-prod-black:hover {
+    background-color: #D77D2E; /* Green */
+    color: white;
+    }
+    
+    
+    .btn-hero {
+    background-color: #fff; /* Green */
+    border: none;
+    color: #D77D2E;
+    width: 100%;
+    padding: 18px 0px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: myfontsubtitle2;
+    font-weight: 800;
+    }
+    
+    .btn-hero {
+    transition-duration: 0.4s;
+    }
+    
+    
+    .btn-hero:hover {
+    background-color: #D77D2E; /* Green */
+    color: white;
+    }
+    
+    .btn-hero1 {
+    background-color: #D77D2E; /* Green */
+    border: none;
+    color: #fff;
+    width: 100%;
+    padding: 18px 0px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: myfontsubtitle2;
+    font-weight: 800;
+    }
+    
+    .btn-hero1 {
+    transition-duration: 0.4s;
+    }
+    
+    
+    .btn-hero1:hover {
+    background-color: black; /* Green */
+    color: white;
+    }
+    
+    .btn-price {
+    background-color: #D77D2E; /* Green */
+    border: none;
+    color: #fff;
+    width: 100%;
+    padding: 18px 0px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: myfontsubtitle2;
+    font-weight: 800;
+    }
+    
+    .btn-price {
+    transition-duration: 0.4s;
+    }
+    
+    
+    .btn-price:hover {
+    background-color: #D77D2E; /* Green */
+    color: white;
+    }
+    
+    
+    .btn-hero-secondary {
+    background-color: transparent; /* Green */
+    border: 2px solid white;
+    color: white;
+    width: 100%;
+    padding: 17px 0px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: myfontsubtitle2;
+    font-weight: 800;
+    }
+    
+    .btn-hero-secondary {
+    transition-duration: 0.4s;
+    }
+    
+    
+    .btn-hero-secondary:hover {
+    background-color: black; /* Green */
+    color: white;
+    border: none;
+    }
+   
+    
+    .btn-dial {
+    background-color: #D77D2E; /* Green */
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 18px 0px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: myfontsubtitle2;
+    font-weight: 800;
+    margin: 10px 15px;
+    }
+    
+    .btn-dial {
+    transition-duration: 0.4s;
+    }
+    
+    
+    .btn-dial:hover {
+    background-color: black; /* Green */
+    color: white;
+    }
+    
+     
+    
+    
+    .testi-bg {
+    background-color: #fff;
+    }
+    
+    .swiper {
+      width: 100%;
+      height: 50%;
+    }
+    
+    .swiper-pagination {
+    margin-top: 30px;
+    }
+    
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .mySwiper .swiper-pagination-bullet{
+    background-color: black;
+    }
+    
+    
+    .card1-testi {
+    border: 1px solid #DEE1E6;
+    background-color: #fff;
+    width: auto;
+    margin: 20px;
+    text-align: left;
+    padding: 40px;
+    border-radius: 15px;
+    }
+    
+    .text-testi {
+    margin: 0px;
+    font-size: 23px;
+    font-family: myfontsubtitle2;
+    line-height: 1.3;
+    padding-bottom: 30px;
+    }
+    
+    .text-testi-more {
+    margin: 15px 0;
+    font-size: 15px;
+    font-family: myfontsubtitle3;
+    
+    }
+    
+    
+    .profile1 {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    bottom: 0;
+    }
+    
+    .profile-image1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    object-fit: cover;
+    }
+    
+    .profile-image1 img {
+    width: 100%;
+    height: auto;
+    
+    }
+    
+    .profile-container1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    }
+    
+    .profile-container1 h3, p {
+    margin: 0px;
+    }
+    
+    .profile-container1 h3 {
+    font-size: 15px;
+    font-family: myfontsubtitle2;
+    }
+    
+    .profile-container1 p {
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: myfontsubtitle2;
+    }
+   
+    
+    
+    
+    
+    
+    .card-prod {
+    background-color: #fff;
+    padding: 5px;
+    }
+    
+    
+    
+    
+    /* pricing */
+    
+    .card-pricing {
+    border: none;
+    background-color: white;
+    border-radius: 18px;
+    }
+    
+    
+    .bg-pricing {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 20px 0;
+    }
+    
+    .icon {
+    display: inline;
+    color: #D77D2E;
+    font-size: 10px;
+    }
+    
+    .text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 80%;
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: myfontsubtitle2;
+    font-weight: 400;
+    }
+    
+    #more {display: none;}
+    
+    #more1 {display: none;}
+    
+    .text-paket {
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-family: myfontsubtitle2;
+    color: #D77D2E;
+    padding: 5px 10px;
+    }
+    
+    .rounded-paket {
+    background-color: black;
+    width: 150px;
+    border-radius: 300px;
+    text-align: center
+    }
+    
+    
+    .ceritaku-text {
+    position: relative;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    }
+    
+    .ceritaku-content {
+    height: 180px;
+    overflow-y: scroll;
+    
+    }
+    
+    .ceritaku-content::-webkit-scrollbar {
+    display: none;
+    }
+    
+    .shadows {
+    position: absolute;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 50px;
+    }
+    
+    .shadows--bottom {
+    bottom: 0;
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 30), transparent);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 30), transparent);
+    }
+    
+    
+    
+    /* card product */
+    
+    
+    .cards-bg {
+    width: 100%;
+    height: auto;
+    }
+    
+    
+    .cards-bg1 {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .cards-product {
+    border: none;
+    background-image: linear-gradient(
+    140deg,
+    hsl(28deg 81% 62%) 0%,
+    hsl(28deg 80% 61%) 7%,
+    hsl(28deg 80% 61%) 13%,
+    hsl(28deg 79% 60%) 20%,
+    hsl(28deg 78% 59%) 27%,
+    hsl(28deg 77% 58%) 33%,
+    hsl(28deg 76% 58%) 40%,
+    hsl(28deg 75% 57%) 47%,
+    hsl(28deg 75% 56%) 53%,
+    hsl(28deg 74% 55%) 60%,
+    hsl(28deg 73% 54%) 67%,
+    hsl(28deg 73% 53%) 73%,
+    hsl(28deg 72% 52%) 80%,
+    hsl(28deg 72% 51%) 87%,
+    hsl(28deg 71% 50%) 93%,
+    hsl(28deg 74% 49%) 100%
+    );
+    border-radius: 15px;
+    width: 100%;
+    text-align: left;
+    padding: 30px;
+    }
+    
+    .texts-product {
+    margin: 15px 0px;
+    font-size: 23px;
+    font-family: myfontsubtitle2;
+    line-height: 1.3;
+    padding-bottom: 0px;
+    color: white;
+    }
+    
+    
+    .cards-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    }
+ 
+    
+    .demo1 {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    bottom: 0;
+    }
+    
+    .demo-image1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    overflow: hidden;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .demo-image1 img {
+    width: 90%;
+    height: auto;
+    }
+    
+    .demo-container1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    }
+    
+    .demo-container1 h3, p {
+    margin: 0px;
+    }
+    
+    .demo-container1 h3 {
+    font-size: 17px;
+    font-family: myfontsubtitle2;
+    }
+    
+    .demoa {
+    text-decoration: none;
+    color: black;
+    }
+    
+    .demo-container1 p {
+    font-size: 15px;
+    margin-top: 3px;
+    font-family: myfontsubtitle3;
+    }
+    
+    
