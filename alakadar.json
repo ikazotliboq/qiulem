@@ -1,0 +1,56 @@
+{
+ 
+  "namapaket": "Alakadar",
+  "hargapaket": "Rp. 50.000",
+  "masaaktif": "2 Bulan",
+"itempaket": [
+   {
+   "item":"Bonus aplikasi buku tamu dan cek data kehadiran tamu",
+   "key": "true"
+   },
+   {
+      "item":"Cover foto Illustrasi",
+      "key": "true"
+   },
+   {
+   "item":"Cantum nama instagram",
+   "key": "true"
+   },
+   {
+   "item":"Maksimal 2 Acara",
+   "key": "true"
+   },
+   {
+   "item":"Unlimited Tamu",
+   "key": "true"
+   },
+   {
+   "item":"Hitung mundur waktu acara",
+   "key": "true"
+   },
+   {
+   "item":"Live Streaming",
+   "key": "true"
+   },
+   {
+   "item":"Kirim kado",
+   "key": "true"
+   },
+   {
+   "item":"Unlimited Kirim ucapan doa dan konfirmasi kehadiran tamu",
+   "key": "true"
+   },
+   {
+   "item":"google maps",
+   "key": "true"
+   },
+   {
+   "item":"2 dompet digital",
+   "key": "true"
+   },
+   {
+   "item":"Maksimal 4 kali revisi",
+   "key": "true"
+   }
+]
+}

@@ -1,0 +1,64 @@
+{
+ 
+  "namapaket": "Mewah",
+  "hargapaket": "Rp. 100.000",
+  "masaaktif": "6 Bulan",
+"itempaket": [
+   {
+   "item":"Bonus aplikasi buku tamu dan cek data kehadiran tamu",
+   "key": "true"
+   },
+   {
+      "item":"Cover foto / Illustrasi",
+      "key": "true"
+   },
+   {
+   "item":"Cantum nama instagram dan sosmed lain",
+   "key": "true"
+   },
+   {
+   "item":"Maksimal 4 Acara",
+   "key": "true"
+   },
+   {
+   "item":"16 Gallery foto Dan 2 Video",
+   "key": "true"
+   },
+   {
+   "item":"Love story",
+   "key": "true"
+   },
+   {
+   "item":"Hitung mundur waktu acara",
+   "key": "true"
+   },
+   {
+   "item":"Live Streaming",
+   "key": "true"
+   },
+   {
+   "item":"Unlimited tamu",
+   "key": "true"
+   },
+   {
+   "item":"Kirim kado",
+   "key": "true"
+   },
+   {
+   "item":"Unlimited Kirim ucapan doa dan konfirmasi kehadiran tamu",
+   "key": "true"
+   },
+   {
+   "item":"google maps",
+   "key": "true"
+   },
+   {
+   "item":"6 dompet digital",
+   "key": "true"
+   },
+   {
+   "item":"Revisi sampai hari H",
+   "key": "true"
+   }
+]
+}
