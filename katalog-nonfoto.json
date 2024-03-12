@@ -1,0 +1,37 @@
+[
+   {
+      "title":"Modern Navi - Nonfoto",
+      "thumb":"https://i.ibb.co/1r1QQNS/ct-non1.jpg",
+      "endpoint":"modernnavi-nonfoto",
+      "order":"",
+      "demo":"https://qobilto.my.id/demo/modernnavi-nonfoto?to=Nama+Tamu"
+   },
+   {
+   "title":"Blue Romantic - Nonfoto",
+   "thumb":"https://i.ibb.co/Dw34zn9/ct-non2.jpg",
+   "endpoint":"blueromantic-nonfoto",
+   "order":"https",
+   "demo":"https://qobilto.my.id/demo/blueromantic-nonfoto?to=Nama+Tamu"
+   },
+   {
+   "title":"Pink In Love - Nonfoto",
+   "thumb":"https://i.ibb.co/rxP3L6x/ct-non3.jpg",
+   "endpoint":"pinkinlove-nonfoto",
+   "order":"https",
+   "demo":"https://qobilto.my.id/demo/pinkinlove-nonfoto?to=Nama+Tamu"
+   },
+   {
+   "title":"Romansa - Nonfoto",
+   "thumb":"https://i.ibb.co/BwMKBwV/ct-non4.jpg",
+   "endpoint":"romansa-nonfoto",
+   "order":"https",
+   "demo":"https://qobilto.my.id/demo/romansa-nofonto?to=Nama+Tamu"
+   },
+   {
+   "title":"Mayboo- Nonfoto",
+   "thumb":"https://i.ibb.co/qN915h7/ct-non5.jpg",
+   "endpoint":"mayboo-nonfoto",
+   "order":"https",
+   "demo":"https://qobilto.my.id/demo/mayboo-nonfoto?to=Nama+Tamu"
+   }
+]
