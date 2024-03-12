@@ -33,7 +33,7 @@ const salin = (btn) => {
 };
 
 function countdown() {
-      var endDate = new Date("2023-07-31"); // Tanggal akhir countdown
+      var endDate = new Date("2026-07-31"); // Tanggal akhir countdown
 
       var timerInterval = setInterval(function() {
         var currentDate = new Date();
