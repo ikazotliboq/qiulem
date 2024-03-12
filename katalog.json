@@ -1,0 +1,84 @@
+[
+   {
+      "title":"Minimal Aesthetic",
+      "thumb":"https://i.ibb.co/xChqJ6N/ct1.jpg",
+      "endpoint":"minimalaesthetic",
+      "order":"",
+      "demo":"https://qobilto.my.id/demo/minimalaesthetic?to=Nama+Tamu"
+   },
+   {
+   "title":"Rose",
+   "thumb":"https://i.ibb.co/N3psbG6/ct2.jpg",
+   "endpoint":"rose",
+   "order":"https",
+   "demo":"https://qobilto.my.id/demo/rose?to=Nama+Tamu"
+   },
+   {
+   "title":"Brown Amour",
+   "thumb":"https://i.ibb.co/wwhDFWk/ct3.jpg",
+   "endpoint":"brownamour",
+   "order":"https",
+   "demo":"https://qobilto.my.id/demo/brownamour?to=Nama+Tamu"
+   },
+   {
+   "title":"Modern Navi",
+   "thumb":"https://i.ibb.co/MfMdq0Q/ct4.jpg",
+   "endpoint":"modernnavi",
+   "order":"https",
+   "demo":"https://qobilto.my.id/demo/modernnavi?to=Nama+Tamu"
+   },
+   {
+   "title":"Green Love",
+   "thumb":"https://i.ibb.co/JKyBWrW/ct5.jpg",
+   "endpoint":"greenlove",
+   "order":"https",
+   "demo":"https://qobilto.my.id/demo/greenlove?to=Nama+Tamu"
+   },
+   {
+   "title":"Green Brush",
+   "thumb":"https://i.ibb.co/4T3NL00/ct6.jpg",
+   "endpoint":"greenbrush",
+   "order":"https",
+   "demo":"https://qobilto.my.id/demo/greenbrush?to=Nama+Tamu"
+   },
+   {
+   "title":"Mayboo",
+   "thumb":"https://i.ibb.co/jv4MvBK/ct7.jpg",
+   "endpoint":"mayboo",
+   "order":"https",
+   "demo":"https://qobilto.my.id/demo/mayboo?to=Nama+Tamu"
+   },
+   {
+   "title":"Jingga",
+   "thumb":"https://i.ibb.co/LnSByP9/ct8.jpg",
+   "endpoint":"jingga",
+   "order":"https",
+   "demo":"https://qobilto.my.id/demo/jingga?to=Nama+Tamu"
+   },
+   {
+   "title":"Pink In Love",
+   "thumb":"https://i.ibb.co/WkSdLPL/ct9.jpg",
+   "endpoint":"pinkinlove",
+   "order":"https",
+   "demo":"https://qobilto.my.id/demo/pinkinlove?to=Nama+Tamu"
+   },
+   {
+   "title":"Blue Romantic",
+   "thumb":"https://i.ibb.co/HP91ks3/ct10.jpg",
+   "endpoint":"blueromantic",
+   "order":"https",
+   "demo":"https://qobilto.my.id/demo/blueromantic?to=Nama+Tamu"
+   },
+   {
+   "title":"Serenity Flower",
+   "thumb":"https://i.ibb.co/s1SwK7r/ct11.jpg",
+   "endpoint":"serenityflower",
+   "order":"https",
+   "demo":"https://qobilto.my.id/demo/serenityflower?to=Nama+Tamu"
+   }
+]
+
+
+
+
+
