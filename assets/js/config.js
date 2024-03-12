@@ -4,7 +4,7 @@
 
  async function getUsers() {
  
- let url = 'https://qobilto.tech/katalog.json';
+ let url = 'https://qobilto.my.id/katalog.json';
 
  try {
  
@@ -70,7 +70,7 @@ document.getElementById('listkatalog').innerHTML = html;
  
  async function getUserstesti() {
  
- let urltesti = 'https://qobilto.tech/testmoni.json';
+ let urltesti = 'https://qobilto.my.id/testmoni.json';
  
  try {
  
