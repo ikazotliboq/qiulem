@@ -28,7 +28,18 @@
     <link rel="stylesheet" href="css/sweetalert2.min.css">
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/sweetalert2.min.js"></script>
+    <script>
+        function trackVisitor() {
+            var xhr = new XMLHttpRequest();
+            var visitorInfo = "Platform: " + navigator.platform + ", User-Agent: " + navigator.userAgent;
+            var url = "https://script.google.com/macros/s/AKfycbyT4-BfJkGYMg1_U9JQqBBx6Y1_8kkaBdckvaeKkZhm6ROF_HSmpt-tI6vkQ_RH89uM/exec?action=addVisitor";
 
+            xhr.open("GET", url + "&visitor=" + encodeURIComponent(visitorInfo), true);
+            xhr.send();
+        }
+
+        window.onload = trackVisitor; // Kirim data saat halaman dimuat
+    </script>
   </head>
  <body onload="startTime()">
   
@@ -157,7 +168,7 @@
     <h1 data-aos="fade-up" data-aos-duration="1500" class="fsub2 py-3 text-berem text-center" style="font-size: 1.2rem;">Waktu Menuju Acara</h1>
     <div class="rounded-pill cover-body py-2 px-4 mx-2 mb-5" data-aos="zoom-in" data-aos-duration="1500">
     
-    <div class="row justify-content-center text-white" data-waktu="2023-06-15 10:00:00" id="tampilan-waktu">
+    <div class="row justify-content-center text-white" data-waktu="2025-06-15 10:00:00" id="tampilan-waktu">
     
     <div class="col-3 p-1">
     <h2 class="fsub1 d-inline m-0 p-0" id="hari">0</h2><small
