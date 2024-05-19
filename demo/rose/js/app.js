@@ -96,18 +96,6 @@ document.addEventListener('DOMContentLoaded', () => {
     modal.show();
 });
 
-function trackVisitor() {
-            var xhr = new XMLHttpRequest();
-            var visitorInfo = "Platform: " + navigator.platform + ", User-Agent: " + navigator.userAgent;
-            var url = "https://script.google.com/macros/s/AKfycbyT4-BfJkGYMg1_U9JQqBBx6Y1_8kkaBdckvaeKkZhm6ROF_HSmpt-tI6vkQ_RH89uM/exec?action=addVisitor";
-
-            xhr.open("GET", url + "&visitor=" + encodeURIComponent(visitorInfo), true);
-            xhr.send();
-        }
-window.onload = trackVisitor; // Kirim data saat halaman dimuat
-   
-
-
 
 
 
