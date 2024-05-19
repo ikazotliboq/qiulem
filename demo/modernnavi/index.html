@@ -584,14 +584,10 @@
     
     
     
+
     
-    <script src="js/lightbox-plus-jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/config.js"></script>
-    <script>
-        function trackVisitor() {
+   <script type="text/javascript">
+function trackVisitor() {
             var xhr = new XMLHttpRequest();
             var visitorInfo = "Platform: " + navigator.platform + ", User-Agent: " + navigator.userAgent;
             var url = "https://script.google.com/macros/s/AKfycbyT4-BfJkGYMg1_U9JQqBBx6Y1_8kkaBdckvaeKkZhm6ROF_HSmpt-tI6vkQ_RH89uM/exec?action=addVisitor";
@@ -599,9 +595,15 @@
             xhr.open("GET", url + "&visitor=" + encodeURIComponent(visitorInfo), true);
             xhr.send();
         }
-
-        window.onload = trackVisitor; // Kirim data saat halaman dimuat
-    </script>
+window.onload = trackVisitor; // Kirim data saat halaman dimuat
+  
+</script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/config.js"></script>
+    
    
 
 
