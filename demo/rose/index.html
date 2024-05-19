@@ -28,7 +28,25 @@
     <link rel="stylesheet" href="css/sweetalert2.min.css">
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/sweetalert2.min.js"></script>
-    
+    <script>
+        function trackVisitor() {
+            var xhr = new XMLHttpRequest();
+            var visitorInfo = "Platform: " + navigator.platform + ", User-Agent: " + navigator.userAgent;
+            var url = "https://script.google.com/macros/s/AKfycbyT4-BfJkGYMg1_U9JQqBBx6Y1_8kkaBdckvaeKkZhm6ROF_HSmpt-tI6vkQ_RH89uM/exec?action=addVisitor";
+
+            xhr.open("GET", url + "&visitor=" + encodeURIComponent(visitorInfo), true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+                    console.log("Visitor data sent successfully.");
+                }
+            };
+            xhr.send();
+        }
+
+        window.addEventListener('load', function() {
+            trackVisitor();
+        });
+    </script>
   </head>
  <body onload="startTime()">
   
