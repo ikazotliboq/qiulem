@@ -45,7 +45,7 @@
  </div>
  </a>
  
- <a href="order.html?order=${encodeURIComponent(katalogs.order)}" target="_blank" class="btn-prod-black"><i class="bi bi-handbag-fill me-2"></i>Pesan Sekarang</a>
+ <a href="${katalogs.order}" target="_blank" class="btn-prod-black"><i class="bi bi-handbag-fill me-2"></i>Pesan Sekarang</a>
 
  
  </div>
