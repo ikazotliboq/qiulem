@@ -16,7 +16,7 @@
     for (var i = data.records.length - 1; i >= 0; i--) {
     var record = data.records[i];
     
-    outputHTML += "<div class='comment'><img src='https://i.ibb.co/4WPXMPx/g1.jpg' class='profile-picture'><div class='comment-details'><div class='am'>";
+    outputHTML += "<div class='comment'><img src='https://raw.githubusercontent.com/qobilcdn/resource/main/images-wedding/qobil_g1.jpg' class='profile-picture'><div class='comment-details'><div class='am'>";
     
     if (record.kehadiran === "Hadir") {
     outputHTML +=  "<h4 class='commenter-name fsub1'>" + record.nama + "<i style='color: #7D2028; margin-left: 5px;'class='bi bi-check-circle-fill'></i></h4>";
