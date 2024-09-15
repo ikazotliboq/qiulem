@@ -7,13 +7,6 @@
       "demo":"https://qobilto.my.id/demo/gatesweet?to=Nama+Tamu"
    },
    {
-      "title":"Gate Love - coming soon",
-      "thumb":"https://raw.githubusercontent.com/qobilcdn/resource/main/catalogs/gate2.webp",
-      "endpoint":"gatelove",
-      "order":"https://wa.me/6283891724984?text=Hallo%20Qobilto,%0ASaya%20ingin%20memesan%20undangan%20digital.%0A--%0ATema:%20*Gate Love*%0APaket:%20*Mewah*%0AHarga:%20*100%20Ribu%20Rupiah*%0A--",
-      "demo":"https://qobilto.my.id/demo/gatelove?to=Nama+Tamu"
-   },
-   {
       "title":"Gate Eternal",
       "thumb":"https://raw.githubusercontent.com/qobilcdn/resource/main/catalogs/gate3.webp",
       "endpoint":"gateeternal",
