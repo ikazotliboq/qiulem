@@ -7,6 +7,13 @@
       "demo":"https://qobilto.my.id/demo/gatesweet?to=Nama+Tamu"
    },
    {
+      "title":"Gate Love",
+      "thumb":"https://raw.githubusercontent.com/qobilcdn/resource/main/catalogs/gate2.webp",
+      "endpoint":"gatelove",
+      "order":"https://wa.me/6283891724984?text=Hallo%20Qobilto,%0ASaya%20ingin%20memesan%20undangan%20digital.%0A--%0ATema:%20*Gate Love*%0APaket:%20*Mewah*%0AHarga:%20*100%20Ribu%20Rupiah*%0A--",
+      "demo":"https://qobilto.my.id/demo/gatelove?to=Nama+Tamu"
+   },
+   {
       "title":"Gate Eternal",
       "thumb":"https://raw.githubusercontent.com/qobilcdn/resource/main/catalogs/gate3.webp",
       "endpoint":"gateeternal",
@@ -21,18 +28,25 @@
       "demo":"https://qobilto.my.id/demo/whitelove?to=Nama+Tamu"
    },
    {
-      "title":"Minimal Aesthetic",
-      "thumb":"https://raw.githubusercontent.com/qobilcdn/resource/main/catalogs/1.webp",
-      "endpoint":"minimalaesthetic",
-      "order":"https://wa.me/6283891724984?text=Hallo%20Qobilto,%0ASaya%20ingin%20memesan%20undangan%20digital.%0A--%0ATema:%20*Minimal Aesthetic*%0APaket:%20*Mewah*%0AHarga:%20*100%20Ribu%20Rupiah*%0A--",
-      "demo":"https://qobilto.my.id/demo/minimalaesthetic?to=Nama+Tamu"
-   },
-   {
    "title":"Rose",
    "thumb":"https://raw.githubusercontent.com/qobilcdn/resource/main/catalogs/2.webp",
    "endpoint":"rose",
    "order":"https://wa.me/6283891724984?text=Hallo%20Qobilto,%0ASaya%20ingin%20memesan%20undangan%20digital.%0A--%0ATema:%20*Rose*%0APaket:%20*Mewah*%0AHarga:%20*100%20Ribu%20Rupiah*%0A--",
    "demo":"https://qobilto.my.id/demo/rose?to=Nama+Tamu"
+   },
+   {
+   "title":"Modern Navi",
+   "thumb":"https://raw.githubusercontent.com/qobilcdn/resource/main/catalogs/4.webp",
+   "endpoint":"modernnavi",
+   "order":"https://wa.me/6283891724984?text=Hallo%20Qobilto,%0ASaya%20ingin%20memesan%20undangan%20digital.%0A--%0ATema:%20*Modern Navi*%0APaket:%20*Mewah*%0AHarga:%20*100%20Ribu%20Rupiah*%0A--",
+   "demo":"https://qobilto.my.id/demo/modernnavi?to=Nama+Tamu"
+   },
+   {
+      "title":"Minimal Aesthetic",
+      "thumb":"https://raw.githubusercontent.com/qobilcdn/resource/main/catalogs/1.webp",
+      "endpoint":"minimalaesthetic",
+      "order":"https://wa.me/6283891724984?text=Hallo%20Qobilto,%0ASaya%20ingin%20memesan%20undangan%20digital.%0A--%0ATema:%20*Minimal Aesthetic*%0APaket:%20*Mewah*%0AHarga:%20*100%20Ribu%20Rupiah*%0A--",
+      "demo":"https://qobilto.my.id/demo/minimalaesthetic?to=Nama+Tamu"
    },
    {
    "title":"Brown Amour",
@@ -41,12 +55,19 @@
    "order":"https://wa.me/6283891724984?text=Hallo%20Qobilto,%0ASaya%20ingin%20memesan%20undangan%20digital.%0A--%0ATema:%20*Brown Amour*%0APaket:%20*Mewah*%0AHarga:%20*100%20Ribu%20Rupiah*%0A--",
    "demo":"https://qobilto.my.id/demo/brownamour?to=Nama+Tamu"
    },
+      {
+   "title":"Mayboo",
+   "thumb":"https://raw.githubusercontent.com/qobilcdn/resource/main/catalogs/7.webp",
+   "endpoint":"mayboo",
+   "order":"https://wa.me/6283891724984?text=Hallo%20Qobilto,%0ASaya%20ingin%20memesan%20undangan%20digital.%0A--%0ATema:%20*Mayboo*%0APaket:%20*Mewah*%0AHarga:%20*100%20Ribu%20Rupiah*%0A--",
+   "demo":"https://qobilto.my.id/demo/mayboo?to=Nama+Tamu"
+   },
    {
-   "title":"Modern Navi",
-   "thumb":"https://raw.githubusercontent.com/qobilcdn/resource/main/catalogs/4.webp",
-   "endpoint":"modernnavi",
-   "order":"https://wa.me/6283891724984?text=Hallo%20Qobilto,%0ASaya%20ingin%20memesan%20undangan%20digital.%0A--%0ATema:%20*Modern Navi*%0APaket:%20*Mewah*%0AHarga:%20*100%20Ribu%20Rupiah*%0A--",
-   "demo":"https://qobilto.my.id/demo/modernnavi?to=Nama+Tamu"
+   "title":"Jingga",
+   "thumb":"https://raw.githubusercontent.com/qobilcdn/resource/main/catalogs/8.webp",
+   "endpoint":"jingga",
+   "order":"https://wa.me/6283891724984?text=Hallo%20Qobilto,%0ASaya%20ingin%20memesan%20undangan%20digital.%0A--%0ATema:%20*Jingga*%0APaket:%20*Mewah*%0AHarga:%20*100%20Ribu%20Rupiah*%0A--",
+   "demo":"https://qobilto.my.id/demo/jingga?to=Nama+Tamu"
    },
    {
    "title":"Green Love",
@@ -61,20 +82,6 @@
    "endpoint":"greenbrush",
    "order":"https://wa.me/6283891724984?text=Hallo%20Qobilto,%0ASaya%20ingin%20memesan%20undangan%20digital.%0A--%0ATema:%20*Green Brush*%0APaket:%20*Mewah*%0AHarga:%20*100%20Ribu%20Rupiah*%0A--",
    "demo":"https://qobilto.my.id/demo/greenbrush?to=Nama+Tamu"
-   },
-   {
-   "title":"Mayboo",
-   "thumb":"https://raw.githubusercontent.com/qobilcdn/resource/main/catalogs/7.webp",
-   "endpoint":"mayboo",
-   "order":"https://wa.me/6283891724984?text=Hallo%20Qobilto,%0ASaya%20ingin%20memesan%20undangan%20digital.%0A--%0ATema:%20*Mayboo*%0APaket:%20*Mewah*%0AHarga:%20*100%20Ribu%20Rupiah*%0A--",
-   "demo":"https://qobilto.my.id/demo/mayboo?to=Nama+Tamu"
-   },
-   {
-   "title":"Jingga",
-   "thumb":"https://raw.githubusercontent.com/qobilcdn/resource/main/catalogs/8.webp",
-   "endpoint":"jingga",
-   "order":"https://wa.me/6283891724984?text=Hallo%20Qobilto,%0ASaya%20ingin%20memesan%20undangan%20digital.%0A--%0ATema:%20*Jingga*%0APaket:%20*Mewah*%0AHarga:%20*100%20Ribu%20Rupiah*%0A--",
-   "demo":"https://qobilto.my.id/demo/jingga?to=Nama+Tamu"
    },
    {
    "title":"Pink In Love",
