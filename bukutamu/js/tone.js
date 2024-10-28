@@ -51,8 +51,8 @@ const dataTwo = [
     "image": "https://raw.githubusercontent.com/qobilcdn/resource/main/metatag-images/qobil_IMG_20241027_185203.jpg"
   },
   {
-    "title": "Terakhir akan muncul dialog pop-up Pilih salah satu sosial media  yang akan digunakan untuk mengirimkan undangan. seperti whatsapp atau media sosial lain nya.",
-    "image": ""
+    "title": "Terakhir akan muncul dialog pop-up Pilih salah satu sosial media  yang akan digunakan untuk mengirimkan undangan. seperti whatsapp, dm instagram atau media sosial lain nya.",
+    "image": "https://raw.githubusercontent.com/qobilcdn/resource/main/metatag-images/qobil_IMG_20241028_141554.jpg"
   }
 ];
 
