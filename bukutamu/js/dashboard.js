@@ -137,7 +137,7 @@ $('#nama').text(userData.namapasangan);
                    if (data && data.length > 0) {
                    const maxVisitors = 1000; // Misalnya, kita asumsikan 100 sebagai nilai maksimal untuk progress bar
                    const visitorCount = data.length;
-                   const progressPercentage = (visitorCount / maxVisitors) * 1000;
+                   const progressPercentage = (visitorCount / maxVisitors) * 100;
                    
                    // Update progress bar
                    const progressBar = document.getElementById('progress-bar');
@@ -173,7 +173,7 @@ $('#nama').text(userData.namapasangan);
                    if (data && data.length > 0) {
                    const maxVisitors = 1000; // Misalnya, kita asumsikan 100 sebagai nilai maksimal untuk progress bar
                    const visitorCount = data.length;
-                   const progressPercentage = (visitorCount / maxVisitors) * 1000;
+                   const progressPercentage = (visitorCount / maxVisitors) * 100;
                    
                    // Update progress bar
                    const progressBar = document.getElementById('progress-bar-bukutamu');
