@@ -4,7 +4,7 @@
 
  async function getUsers() {
  
- let url = 'https://qobilto.my.id/katalog.json';
+ let url = 'https://qobilto.web.id/katalog.json';
 
  try {
  
