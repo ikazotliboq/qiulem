@@ -70,7 +70,7 @@ document.getElementById('listkatalog').innerHTML = html;
  
  async function getUserstesti() {
  
- let urltesti = 'https://qobilto.my.id/testmoni.json';
+ let urltesti = 'https://qobilto.web.id/testmoni.json';
  
  try {
  
