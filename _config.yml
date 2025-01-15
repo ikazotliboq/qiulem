@@ -1,0 +1,22 @@
+# Pengaturan Umum
+title: Qobilto - Website Undangan Pernikahan Digital
+description: Buat undangan website untuk pernikahanmu secara mudah, murah dan cepat. Jadikan acara kamu jadi lebih berkesan bersama Qobilto!
+baseurl: ""
+url: "https://qobilto.web.id"
+markdown: kramdown
+
+# Permalink (URL halaman)
+permalink: /:name/
+
+# Metadata halaman
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      author: "Qobilto"
+
+# Permintaan untuk robots.txt
+robots_txt:
+  - "User-agent: *"
+  - "Sitemap: https://qobilto.web.id/sitemap.xml"
