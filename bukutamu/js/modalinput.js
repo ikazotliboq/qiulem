@@ -121,6 +121,27 @@
     *${updatedUserNama}*
     `;
     break;
+    case "4":
+    pilihtemplatepesan = `
+Assalamualaikum Warahmatullahi Wabarakatuh
+
+Dengan memohon rahmat dan ridho Allah SWT,
+kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk berkenan hadir dalam acara Walimatul Khitan putra kami. ${updatedUserNama}
+
+Informasi lengkap mengenai waktu, tempat, dan detail acara dapat diakses melalui undangan online berikut:
+
+🔗 ${urlAcara}
+
+Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan turut mendoakan kebaikan bagi putra kami.
+
+Karena keterbatasan jarak dan waktu, izinkan kami menyampaikan undangan ini secara digital sebagai pengganti undangan fisik.
+
+Wassalamualaikum Warahmatullahi Wabarakatuh
+
+Hormat kami,
+Keluarga Besar,  ${updatedUserNama} ❤️
+    `;
+    break;
     // Tambahkan lebih banyak kasus jika diperlukan
     default:
     pilihtemplatepesan = "Template pesan default...";
